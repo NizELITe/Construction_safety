@@ -1,0 +1,48 @@
+body {
+    background: #e8f5e9; /* light green background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px;
+}
+h1 {
+    color: #2e7d32; /* dark green title */
+    margin-bottom: 20px;
+}
+input[type="file"] {
+    margin: 20px 0;
+    font-size: 16px;
+}
+button {
+    background-color: #2e7d32; /* dark green button */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #1b5e20;
+}
+.preview, #outputImage {
+    margin-top: 30px;
+    max-width: 100%;
+    border: 2px solid #2e7d32;
+    border-radius: 8px;
+}
+#result h2 {
+    margin-top: 40px;
+    color: #444;
+}
